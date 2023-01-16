@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+
+#landing h1, #landing p{
+    color: white;
+}
+
+
+#landing p {
+    text-align: center;
+    margin-top: 250px;
+    background-color: rgb(8, 92, 13);
+    font-size: 20px;
+    display:flow-root;
+}
+
+
+#landing h1 {
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    display: block; 
+    display: flexbox;
+    margin-top: 150px;
+}
+
+
+#landing {
+    background-image: url('../image/7.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position:0px;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main-btn {
+    text-decoration: none;
+    color: white;
+    border: 3px white solid;
+    border-radius: 30px;
+    padding: 10px   20px;
+    margin-top: 10px;
+    background-color: rgb(6, 116, 24);
+}
+
+
+#main-btn hover {
+    background-color: green;
+    color: whitesmoke;
+}
+
+
+.options-block {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid: gap 20px;
+}
+
+
+.options {
+    margin: 10px;
+    text-align: center;
+}
+
+
+.options img {
+    width:100% ;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+img {
+    width: 50px;
+    height: 400px;
+}
+
+
+.options a{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+    padding-top: 10px;
+    
+}
+
+.options p  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.options-block .a {
+    margin-top: 20px;
+}
+
+
+@media (max-width:810px){
+    .options-block {
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+@media (max-width:500px){
+    .options-block {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.footer {
+    margin-top:  20px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+
+.footer {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer  a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
